@@ -59,6 +59,7 @@ function coords(x, y){
 }
 
 console.log(showmap())
+console.log(`You are ${character.sprite}, and ${treasure.sprite} is the treasure`);
 console.log("Enter one of these options:\nnorth(), south(), east(), west()")
 
 function showmap(){
